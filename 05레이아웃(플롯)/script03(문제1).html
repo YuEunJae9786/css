@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .outer {
+            width: 30%;
+            margin: 0 auto;
+            border: 1px solid #777;
+        }
+
+        .top, .middle, .left, .right, .bottom{
+            border: 1px solid #777;
+        }
+
+        .middle{
+            overflow: hidden;
+            padding: 20px 0px;
+        }
+
+        .left, .right{
+            width: 50.0000%;
+            float:left;
+            box-sizing:border-box;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="outer">
+        <div class="top">
+            탑
+        </div>
+        <div class="middle">
+            <div class="left">
+                중간 패딩 위아래 20px
+            </div>
+            <div class="right">
+                중간 패딩 위아래 20px
+            </div>
+        </div>
+        <div class="bottom">
+            바텀
+        </div>
+    </div>
+
+</body>
+</html>
