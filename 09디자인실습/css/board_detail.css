@@ -1,0 +1,146 @@
+/* ============ 상품 상세 ============= */
+.board-wrap > .detail-info > .board-inner {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.board-wrap > .detail-info > .board-price {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.board-wrap > .detail-info > .board-content {
+    color: #777;
+}
+
+.board-wrap > .detail-info {
+    min-height: 345px;
+}
+
+.board-bottom {overflow: hidden; font-size: 30px; min-height: 55px;}
+.board-bottom > .bottom-left {float: left; font-size: 18px; line-height: 45px;}
+.board-bottom > .bottom-right {float: right; font-size: 30px;}
+
+.board-wrap > .bottom-bottom {
+    clear: both;
+    overflow: hidden;
+}
+
+.bottom-bottom > button {
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    
+    box-sizing: border-box;
+}
+
+.bottom-bottom > .left-btn {
+    float: left;
+    background-color: #fff;
+    border-color: #ccc
+}
+
+.bottom-bottom > .right-btn {
+    background-color: #337ab7;
+    color: #fff;
+    border-color: #2e6da4;
+}
+
+.bottom-bottom > .left-btn:hover {
+    background-color: #e6e6e6;
+}
+
+.bottom-bottom > .right-btn:hover {
+    background-color: #286090;
+}
+
+/* =========== 댓글창 =========== */
+.replay-outer {
+    background-color: #f5f5f5;
+    border: 1px solid #d2d2d2;
+    padding: 20px;
+    min-height: 70px;
+    overflow: hidden;
+}
+
+.replay-outer > .replay-wrap {
+    position: relative;
+}
+
+.replay-wrap > .replay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.replay-wrap > .replay-content {
+    padding-left: 60px;
+}
+
+.replay-content > .form-text {
+    resize: vertical;
+    width: 100%;
+    min-height: 100px;
+
+    transition: min-height 2s ease-in-out;
+}
+
+.replay-content > .form-text:focus {
+    min-height: 150px;
+}
+
+.replay-content > .form-group {margin-top: 10px; position: relative;}
+
+
+.replay-content > .form-group > .form-control {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.replay-content > .form-group > .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.replay-outer > .replay-re { position: relative;}
+
+.replay-re > .replay-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.replay-content {overflow: hidden;}
+
+.replay-content > .replay-left {
+    padding-left: 60px;
+    float: left;
+}
+
+.replay-content > .replay-left > p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.replay-content > .replay-left > p > small {
+    font-size: 15px;
+    font-weight: 100;
+    color: #777;
+    height: 20px;
+    line-height: 20px;
+}
+
+.replay-content > .replay-right {
+    float: right;
+    color: #777;
+}
+
+.replay-right a {
+    text-decoration: none;
+    color: #777;
+}
