@@ -38,7 +38,27 @@
 .login-outer {
     border-radius: 10px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* 가로축그림자, 세로축그림자, 명암, 색상 */
-    padding: 30px;
+    padding: 70px;
 
     overflow: hidden;
+}
+
+.login-outer > .login-img > img{
+    width: 100%;
+}
+
+.login-outer > .login-content {
+    padding: 40px;
+}
+
+@media(min-width: 768px) and (max-width: 1200px){
+    .login-outer > .login-content {
+        padding: 10px 40px;
+    }
+}
+
+@media(max-width: 768px){
+    .login-outer > .login-content {
+        padding: 14px;
+    }
 }
