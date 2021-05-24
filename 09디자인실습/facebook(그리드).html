@@ -22,9 +22,16 @@
     <!-- 회원가입 or 로그인 디자인 -->
     <link rel="stylesheet" href="css/form_join.css">
 
+    <!-- 탭 디자인 -->
+    <link rel="stylesheet" href="css/tabs.css">
+    <!-- 마이페이지 디자인 -->
+    <link rel="stylesheet" href="css/mypage.css">
+    <!-- 페이스북 디자인 -->
+    <link rel="stylesheet" href="css/facebook.css">
+
 </head>
 <body>
-
+    
     <header class="custom_header">
         <nav class="navbar">
             <div class="container">
@@ -73,43 +80,89 @@
             </div>
         </nav>
     </header>
-    
-    <section style="margin-bottom: 15px;">
+
+    <section style="margin-top: 100px;">
         <div class="container">
             <div class="row">
+                <aside class="col-sm-3 aside-facebook">
+                    <div class="aside-img">
+                        <p><img src="img/profile.png">사라만</p>
+                    </div>
+                    <ul class="aside-top">
+                        <li><a href="#">뉴스피드</a></li>
+                        <li><a href="#">메신저</a></li>
+                        <li><a href="#">watch동영상</a></li>
+                    </ul>
+                    <ul class="aside-middle">
+                        <li><a href="#">둘러보기</a></li>
+                    </ul>
+                    <ul class="aside-bottom">
+                        <li><a href="#">기부 캠페인</a></li>
+                        <li><a href="#">페이지</a></li>
+                        <li><a href="#">그룹</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">친구리스트</a></li>
+                    </ul>
+                </aside>
+                <div class="col-sm-7 section-facebook">
+                    <div class="section-top">
+                        <h4>게시글을 등록하세요</h4>
+                        <div class="form-group">
+                            <textarea class="form-control text-form" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="replay">
+                            <button type="button" class="btn btn-success btn-left">이미지 업로드</button>
+                            <button type="button" class="btn btn-info btn-right">등록하기</button>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="section-img">
+                            <img src="img/profile.png" style="width: 50px;">
+                        </div>
+                        <div class="section-img-content">
+                            <small class="small-top">테스트</small>
+                            <small>21시간</small>
+                        </div>
+                        <p>삶이 우리를 끝없이 시험하기에 고어텍스는 한계를 테스트합니다</p>
 
-                <div class="titlebox">
-                    로그인
-                </div>
-    
-                <div class="col-xs-12 login-outer">
-                    <div class="col-md-6 login-img"> <!-- 이미지 영역 -->
-                        <img src="img/login_background.png" alt="로고">
-                    </div>
-    
-                    <div class="col-md-6"> <!-- 폼 영역 -->
-                        <form class="login-content">
-                            <div class="form-group">
-                                <label>아이디</label>
-                                <input type="text" class="form-control" placeholder="아이디" name="">
+                        <div class="facebook-img">
+                            <img src="img/facebook.jpg">
+                        </div>
+                        <div class="facebook-bottom"> 
+                            <div class="facebook-hand">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
                             </div>
-    
-                            <div class="form-group">
-                                <label>비밀번호</label>
-                                <input type="text" class="form-control" placeholder="비밀번호" name="">
+                            522
+                        </div>
+                        <div class="facebook-bottom-list">
+                            <div class="left">
+                                <span class="glyphicon glyphicon-thumbs-up">좋아요</span>
                             </div>
-    
-                            <input type="button" class="btn btn-info btn-block" value="로그인">
-                            <input type="button" class="btn btn-primary btn-block" value="회원가입">
-                        </form>
+                            <div class="center">
+                                <span class="glyphicon glyphicon-comment">댓글달기</span>
+                            </div>
+                            <div class="right">
+                                <span class="glyphicon glyphicon-share-alt">공유하기</span>
+                            </div>
+                        </div>
                     </div>
-    
                 </div>
-    
+                <aside class="col-sm-2 aside-facebook">
+                    <div class="aside-top">
+                        <p>목록</p>
+                    </div>
+                    <ul class="aside-bottom">
+                        <li> <a href="#">목록1</a> </li>
+                        <li> <a href="#">목록2</a> </li>
+                        <li> <a href="#">목록3</a> </li>
+                        <li> <a href="#">목록4</a> </li>
+                        <li> <a href="#">목록5</a> </li>
+                    </ul>
+                </aside>
             </div>
         </div>
-        </div>
     </section>
+
 
     <footer>
         <div class="container">

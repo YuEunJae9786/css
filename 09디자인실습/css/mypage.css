@@ -1,0 +1,33 @@
+/* ====== 마이페이지 디자인 ======= */
+.m-control > tr > .m-title {
+    vertical-align: middle;
+    width: 200px;
+}
+
+.m-control > tr > td > .form-control {
+    display: inline; /* input이 가로로 배치될 수 있도록 */
+}
+
+.m-control > tr > td > .add {
+    width: 200px;
+}
+
+.m-control > tr > td > .sel {
+    width: 80px;
+}
+
+.m-control > tr > td > .sel2 {
+    width: 100px;
+}
+
+.m-control > tr > td > button.btn {
+    vertical-align: top; /* 부트스트랩버튼이 기본적으로 vertical-align을 가지고 있기 때문에 */
+}
+
+.titlebtn {
+    text-align: center;
+}
+
+.tab-content {
+    margin-top: 50px;
+}

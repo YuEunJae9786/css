@@ -30,35 +30,35 @@
 }
 
 /* ========== 로그인 화면 =========== */
-.login-form {
-    margin:0 auto;
-    float: none;
-}
-
 .login-outer {
-    border-radius: 10px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15); /* 가로축그림자, 세로축그림자, 명암, 색상 */
     padding: 70px;
-
-    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .login-outer > .login-img > img{
     width: 100%;
 }
 
-.login-outer > .login-content {
-    padding: 40px;
+/* 전체화면 */
+.login-content {
+    padding: 44px 30px;
 }
 
-@media(min-width: 768px) and (max-width: 1200px){
-    .login-outer > .login-content {
-        padding: 10px 40px;
+/* 태블릿환경 */
+@media(min-width: 992px) and (max-width: 1199px){ /* 992 ~ 1199 */
+    .login-content {
+        padding: 12px 30px;
     }
 }
 
+/* 모바일환경 */
 @media(max-width: 768px){
-    .login-outer > .login-content {
-        padding: 14px;
+    .login-content {
+        padding: 12px 0px;
+    }
+
+    .login-outer {
+        padding: 50px;
     }
 }
